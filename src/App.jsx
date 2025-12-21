@@ -2,6 +2,7 @@ import Card from './components/card'
 
 const App = () => {
   const books = [
+  
   {
     id: 1,
     title: "The Fault in Our Stars",
@@ -111,6 +112,115 @@ const App = () => {
     category: "Magical",
     description: "A magical heist story full of action, dark secrets, and dangerous missions.",
     img: "https://covers.openlibrary.org/b/id/11153222-L.jpg"
+  },{
+    id: 11,
+    title: "Rich Dad Poor Dad",
+    author: "Robert T. Kiyosaki",
+    genre: "Finance, Self-help",
+    rating: 4.6,
+    price: "399/-",
+    category: "Motivational",
+    description: "A guide to financial literacy and building wealth through smart thinking.",
+    img: "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+  },
+  {
+    id: 12,
+    title: "Atomic Habits",
+    author: "James Clear",
+    genre: "Self-help, Psychology",
+    rating: 4.8,
+    price: "499/-",
+    category: "Motivational",
+    description: "Small habits, big results—learn how tiny changes transform your life.",
+    img: "https://covers.openlibrary.org/b/id/10521270-L.jpg"
+  },
+  {
+    id: 13,
+    title: "Think Like a Monk",
+    author: "Jay Shetty",
+    genre: "Self-help, Spiritual",
+    rating: 4.7,
+    price: "450/-",
+    category: "Spiritual",
+    description: "Train your mind for peace, purpose, and clarity in everyday life.",
+    img: "https://covers.openlibrary.org/b/id/10592548-L.jpg"
+  },
+  {
+    id: 14,
+    title: "The Power of Subconscious Mind",
+    author: "Joseph Murphy",
+    genre: "Psychology, Motivation",
+    rating: 4.8,
+    price: "299/-",
+    category: "Motivational",
+    description: "Understand how your subconscious mind influences success and happiness.",
+    img: "https://covers.openlibrary.org/b/id/8235116-L.jpg"
+  },
+  {
+    id: 15,
+    title: "Ikigai",
+    author: "Héctor García & Francesc Miralles",
+    genre: "Self-help, Philosophy",
+    rating: 4.7,
+    price: "380/-",
+    category: "Inspirational",
+    description: "Discover the Japanese secret to a long, happy, and meaningful life.",
+    img: "https://covers.openlibrary.org/b/id/10580020-L.jpg"
+  },
+  {
+    id: 16,
+    title: "Sapiens",
+    author: "Yuval Noah Harari",
+    genre: "History, Science",
+    rating: 4.9,
+    price: "650/-",
+    category: "Educational",
+    description: "A brief history of humankind from ancient times to modern age.",
+    img: "https://covers.openlibrary.org/b/id/8370226-L.jpg"
+  },
+  {
+    id: 17,
+    title: "The Psychology of Money",
+    author: "Morgan Housel",
+    genre: "Finance, Psychology",
+    rating: 4.8,
+    price: "420/-",
+    category: "Finance",
+    description: "Timeless lessons on wealth, greed, and happiness.",
+    img: "https://covers.openlibrary.org/b/id/11153245-L.jpg"
+  },
+  {
+    id: 18,
+    title: "Deep Work",
+    author: "Cal Newport",
+    genre: "Productivity, Self-help",
+    rating: 4.6,
+    price:" 399/-",
+    category: "Productivity",
+    description: "Rules for focused success in a distracted world.",
+    img: "https://covers.openlibrary.org/b/id/10491155-L.jpg"
+  },
+  {
+    id: 19,
+    title: "Can’t Hurt Me",
+    author: "David Goggins",
+    genre: "Biography, Motivation",
+    rating: 4.9,
+    price: "520/-",
+    category: "Inspirational",
+    description: "A powerful story of mental toughness and self-discipline.",
+    img: "https://covers.openlibrary.org/b/id/11108187-L.jpg"
+  },
+  {
+    id: 20,
+    title: "The 5 AM Club",
+    author: "Robin Sharma",
+    genre: "Self-help, Motivation",
+    rating: 4.6,
+    price:" 399/-",
+    category: "Motivational",
+    description: "Transform your mornings to maximize productivity and success.",
+    img: "https://covers.openlibrary.org/b/id/10590642-L.jpg"
   }
   ];
 
